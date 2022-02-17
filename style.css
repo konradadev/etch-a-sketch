@@ -14,8 +14,8 @@ h1{
     box-sizing: content-box;
     align-self: center;
     border: 1px solid black;
-    width: 860px;
-    height: 860px;
+    width: 90vh;
+    height: 90vh;
     display: grid;
 }
 
