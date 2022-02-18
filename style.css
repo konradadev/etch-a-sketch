@@ -1,3 +1,7 @@
+*{
+    pointer-events: none;
+}
+
 body{
     margin: 0;
     display: flex;
@@ -19,6 +23,29 @@ h1{
     display: grid;
 }
 
-.cell:hover{
-    background-color: black;
+.buttons{
+    display:flex;
+}
+
+input{
+    pointer-events: all;
+    height:20px;
+    align-self: center;
+}
+
+button{
+    pointer-events: all;
+    margin: 10px 5px;
+}
+
+.cell{
+    pointer-events: all;
+}
+
+.cellchosen{
+    pointer-events: none;
+}
+
+.cellhover{
+    background-color: red;
 }
